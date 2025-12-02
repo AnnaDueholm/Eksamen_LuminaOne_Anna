@@ -8,7 +8,7 @@
 /*Farve variabler*/
 :root {
   --bg_color: #fafafa;
-  --teskt_farve: #332721;
+  --tekst_farve: #332721;
   --tekst_billeder: #fafafa;
   --CTA: #332721;
   --CTA_tekst: #fafafa;
@@ -134,6 +134,36 @@ main {
   background-color: var(--bg_color);
 }
 
+/*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
+
+/*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
+
+#LuminateYourself {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: var(--bg_color);
+}
+
+#LuminateYourself h1 {
+  color: var(--tekst_farve);
+  /* Tekstens placering */
+  position: absolute;
+  left: 120px;
+  right: 700px;
+  top: 200px;
+  text-align: left;
+}
+#LuminateYourself h6 {
+  color: var(--tekst_farve);
+  /* Tekstens placering */
+  position: absolute;
+  left: 120px;
+  right: 700px;
+  top: 300px;
+  text-align: left;
+}
+
 /*THE ONE GIFT THAT HAS IT ALL billede styles*/
 
 #TheOneGift {
@@ -179,6 +209,10 @@ main {
   color: var(--CTA);
   border-color: var(--CTA);
 }
+
+/*HER INDSÆTTES FEATURES SEKTION*/
+
+/*HER INDSÆTTES JUST ONE MORE SEKTION*/
 
 /*THE ONE THAT BRINGS US TOGETHER billede styles*/
 
@@ -227,3 +261,9 @@ main {
   color: var(--CTA);
   border-color: var(--CTA);
 }
+
+/*HER INDSÆTTES ANDEN PRODUKTSIDE*/
+
+/*HER INDSÆTTES THE ONE THATS GOING AWAY SEKTION*/
+
+/*HER INDSÆTTES FOOTER*/
