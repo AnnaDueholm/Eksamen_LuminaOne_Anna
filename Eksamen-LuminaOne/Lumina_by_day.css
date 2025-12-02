@@ -139,8 +139,7 @@ main {
 /*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
 
 #LuminateYourself {
-  position: relative;
-  height: 500px;
+  height: 630px;
   width: 100%;
   background-color: var(--bg_color);
 }
@@ -148,20 +147,34 @@ main {
 #LuminateYourself h1 {
   color: var(--tekst_farve);
   /* Tekstens placering */
-  position: absolute;
   left: 120px;
   right: 700px;
   top: 200px;
   text-align: left;
 }
+
 #LuminateYourself h6 {
   color: var(--tekst_farve);
   /* Tekstens placering */
-  position: absolute;
   left: 120px;
   right: 700px;
   top: 300px;
   text-align: left;
+}
+
+.InstaKarrusel {
+  display: grid; /*lægger billederne på række*/
+  grid-auto-flow: column; /*lægger billederne vertikalt*/
+  grid-auto-columns: 19%; /*Bestemmer hvor mange procent af et billede skal fylde på siden*/
+  overflow-x: auto; /*stopper billederne i bare at fortsætte ud i "marginen"*/
+  overscroll-behavior-inline: contain; /*fjerner muligheden for at scrolle i andre elementer på siden*/
+}
+
+.InstaKarrusel img {
+  height: 320px;
+  width: 280px;
+  padding: 10px;
+  object-fit: cover; /*udfylder billederne i den defineret størrelse uden at strække billederne*/
 }
 
 /*THE ONE GIFT THAT HAS IT ALL billede styles*/
