@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/*Variabler*/
+/*Farve variabler*/
 :root {
   --bg_color: #fafafa;
   --teskt_farve: #332721;
@@ -20,7 +20,7 @@
   --Footer: #282119;
 }
 
-/*Font variabler*/
+/*Tekst variabler*/
 
 /*Overskrifter på Hero og billeder*/
 h1 {

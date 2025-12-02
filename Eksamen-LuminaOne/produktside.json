@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "LUMINA one",
+    "headline": "Portable Bluetooth Speaker",
+    "description": "A small speaker with big sound, a sleek design, and up to 18 hours of playtime.",
+    "stars": 5,
+    "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
+    "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
+    "price": "1.995 DKK",
+    "color": "Jacks White",
+    "image": "/images/forskellige_højtalerfarver/Jackswhiteu.bg.png"
+  },
+
+  {
+    "id": 2,
+    "name": "LUMINA one",
+    "headline": "Portable Bluetooth Speaker",
+    "description": "A small speaker with big sound, a sleek design, and up to 18 hours of playtime.",
+    "stars": 5,
+    "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
+    "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
+    "price": "1.995 DKK",
+    "color": "Sabbath Black",
+    "image": "/images/forskellige_højtalerfarver/SabbathBlack u.bg.png"
+  },
+  {
+    "id": 3,
+    "name": "LUMINA one",
+    "headline": "Portable Bluetooth Speaker",
+    "description": "A small speaker with big sound, a sleek design, and up to 18 hours of playtime.",
+    "stars": 5,
+    "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
+    "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
+    "price": "1.995 DKK",
+    "color": "Springing Silver",
+    "image": "/images/forskellige_højtalerfarver/SpringingSilveru.bg.png"
+  },
+
+  {
+    "id": 4,
+    "name": "LUMINA one",
+    "headline": "Portable Bluetooth Speaker",
+    "description": "A small speaker with big sound, a sleek design, and up to 18 hours of playtime.",
+    "stars": 5,
+    "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
+    "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
+    "price": "1.995 DKK",
+    "color": "Crisp Brown",
+    "image": "/images/forskellige_højtalerfarver/CripsBrownu.bg.png"
+  }
+]
