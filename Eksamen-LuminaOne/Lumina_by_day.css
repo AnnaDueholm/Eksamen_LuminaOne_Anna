@@ -1,0 +1,229 @@
+/*fjern whitespace*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Variabler*/
+:root {
+  --bg_color: #fafafa;
+  --teskt_farve: #332721;
+  --tekst_billeder: #fafafa;
+  --CTA: #332721;
+  --CTA_tekst: #fafafa;
+  --Jacks_White: #e6d8bd;
+  --Crisp_Brown: #332721;
+  --Springing_Silver: #d8dbde;
+  --Sabbath_Black: #000000;
+  --Card_bg: #f5f5f5;
+  --Footer: #282119;
+}
+
+/*Font variabler*/
+
+/*Overskrifter på Hero og billeder*/
+h1 {
+  font-family: "Jura", sans-serif;
+  font-size: 72px;
+  font-weight: 200;
+}
+
+/*Overskrift på produktsider*/
+h2 {
+  font-family: "Jura", sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+/*Store CTA*/
+h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/*Små CTA*/
+h4 {
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*Pricetags*/
+h5 {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*LUMINA one i lille*/
+h6 {
+  font-family: "Jura", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*Brødtekst*/
+p {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*Top bar*/
+#shop-sale {
+  align-content: center;
+  height: 40px;
+  background-color: var(--Footer);
+  color: var(--tekst_billeder);
+  padding-left: 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+/*Hero*/
+header {
+  height: 100vh;
+  background-color: var(--bg_color);
+
+  /* Herobilledet i baggrunden*/
+  background-image: url(images/Lumina_by_day/HERO\ billede\ px.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/*Hero tekst styles*/
+
+#HeroTekst {
+  color: var(--tekst_billeder);
+  /* Tekstens placering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 120px;
+  padding-right: 700px;
+  padding-top: 200px;
+  padding-bottom: 224px;
+  text-align: left;
+}
+
+/*BUY NOW knap styles*/
+
+.HeroButton {
+  border-radius: 20px;
+  padding: 10px 56px;
+  background-color: var(--CTA);
+  color: var(--CTA_tekst);
+  font-family: "Jura", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*BUY NOW knap hover effekt*/
+
+.HeroButton:hover {
+  background-color: var(--CTA_tekst);
+  color: var(--CTA);
+  border-color: var(--CTA);
+}
+
+main {
+  background-color: var(--bg_color);
+}
+
+/*THE ONE GIFT THAT HAS IT ALL billede styles*/
+
+#TheOneGift {
+  position: relative;
+}
+
+#TheOneGift img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*THE ONE GIFT THAT HAS IT ALL tekst styles*/
+
+#TheOneGift h1 {
+  color: var(--tekst_billeder);
+  /* Tekstens placering */
+  position: absolute;
+  left: 120px;
+  right: 700px;
+  top: 200px;
+  text-align: left;
+}
+
+/*FEATURES knap styles*/
+
+.FeaturesButton {
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  border-radius: 20px;
+  padding: 10px 56px;
+  background-color: var(--CTA);
+  color: var(--CTA_tekst);
+  font-family: "Jura", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*FEATURES knap hover effekt*/
+.FeaturesButton:hover {
+  background-color: var(--CTA_tekst);
+  color: var(--CTA);
+  border-color: var(--CTA);
+}
+
+/*THE ONE THAT BRINGS US TOGETHER billede styles*/
+
+#BringsUsTogether {
+  position: relative;
+}
+
+#BringsUsTogether img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*THE ONE THAT BRINGS US TOGETHER tekst styles*/
+
+#BringsUsTogether h1 {
+  color: var(--tekst_billeder);
+  text-shadow: 0 4px 12px var(--CTA);
+  /* Tekstens placering */
+  position: absolute;
+  left: 120px;
+  right: 700px;
+  top: 200px;
+  text-align: left;
+}
+
+/*THE ONE THAT BRINGS US TOGETHER knap styles*/
+
+.BuyNowButton {
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  border-radius: 20px;
+  padding: 10px 56px;
+  background-color: var(--CTA);
+  color: var(--CTA_tekst);
+  font-family: "Jura", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*THE ONE THAT BRINGS US TOGETHER knap hover*/
+
+.BuyNowButton:hover {
+  background-color: var(--CTA_tekst);
+  color: var(--CTA);
+  border-color: var(--CTA);
+}
