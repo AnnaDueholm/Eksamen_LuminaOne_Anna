@@ -8,7 +8,8 @@
     "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
-    "color": "Jacks White",
+    "color-name": "Jacks White",
+    "color": "/images/speaker-colors/elipse-white.svg",
     "image": "/images/speaker-colors/jacks-whiteu.bg.png"
   },
 
@@ -21,7 +22,8 @@
     "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
-    "color": "Sabbath Black",
+    "color-name": "Sabbath Black",
+    "color": "/images/speaker-colors/elipse-black.svg",
     "image": "/images/speaker-colors/sabbath-black u.bg.png"
   },
   {
@@ -33,7 +35,8 @@
     "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
-    "color": "Springing Silver",
+    "color-name": "Springing Silver",
+    "color": "/images/speaker-colors/elipse-silver.svg",
     "image": "/images/speaker-colors/springing-silveru.bg.png"
   },
 
@@ -46,7 +49,8 @@
     "quote": "“LUMINA one is your perfect companion for beach days, park picnics or cozy nights”",
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
-    "color": "Crisp Brown",
+    "color-name": "Crisp Brown",
+    "color": "/images/speaker-colors/elipse-brown.svg",
     "image": "/images/speaker-colors/crisp-brownu.bg.png"
   }
 ]
