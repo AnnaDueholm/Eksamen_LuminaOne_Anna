@@ -1,0 +1,289 @@
+/*fjern whitespace*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Farve variabler*/
+:root {
+  --bg-color: #fafafa;
+  --tekst-farve: #332721;
+  --tekst-billeder: #fafafa;
+  --CTA: #332721;
+  --CTA-tekst: #fafafa;
+  --Jacks-White: #e6d8bd;
+  --Crisp-Brown: #332721;
+  --Springing-Silver: #d8dbde;
+  --Sabbath-Black: #000000;
+  --Card-bg: #f5f5f5;
+  --Footer: #282119;
+}
+
+/*Tekst variabler*/
+
+/*Overskrifter på Hero og billeder*/
+h1 {
+  font-family: "Jura", sans-serif;
+  font-size: 72px;
+  font-weight: 200;
+}
+
+/*Overskrift på produktsider*/
+h2 {
+  font-family: "Jura", sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+/*Store CTA*/
+h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/*Små CTA*/
+h4 {
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*Pricetags*/
+h5 {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*LUMINA one i lille*/
+h6 {
+  font-family: "Jura", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*Brødtekst*/
+p {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*Baggrundsfarven sættes på hele siden*/
+body {
+  background-color: var(--bg-color);
+}
+
+/*Top bar*/
+#shop-sale {
+  align-content: center;
+  height: 40px;
+  background-color: var(--Footer);
+  color: var(--tekst-billeder);
+  padding-left: 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+/*Hero*/
+header {
+  height: 100vh;
+  background-color: var(--bg-color);
+
+  /* Herobilledet som baggrunden*/
+  background-image: url(images/lumina-by-day/hero-pic.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/*Hero tekst styles*/
+
+#HeroText {
+  color: var(--tekst-billeder);
+  /* Tekstens placering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 120px;
+  padding-right: 700px;
+  padding-top: 200px;
+  padding-bottom: 224px;
+  text-align: left;
+}
+
+/*BUY NOW knap styles*/
+
+.HeroButton {
+  border-radius: 20px;
+  padding: 10px 56px;
+  background-color: var(--CTA);
+  color: var(--CTA-tekst);
+  font-family: "Jura", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*BUY NOW knap hover effekt*/
+
+.HeroButton:hover {
+  background-color: var(--CTA-tekst);
+  color: var(--CTA);
+  border-color: var(--CTA);
+}
+
+/*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
+
+/*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
+
+#LuminateYourself {
+  height: 630px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: var(--bg-color);
+}
+
+#LuminateYourself h1 {
+  color: var(--tekst-farve);
+  /* Overskriftens placering */
+  left: 120px;
+  right: 700px;
+  top: 200px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
+#LuminateYourself h6 {
+  color: var(--tekst-farve);
+  /* Denne lille teksts placering */
+  left: 120px;
+  right: 700px;
+  top: 400px;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.InstaKarrusel {
+  display: grid; /*lægger billederne på række*/
+  grid-auto-flow: column; /*lægger billederne vertikalt*/
+  grid-auto-columns: 19%; /*Bestemmer hvor mange procent af et billede skal fylde på siden*/
+  overflow-x: auto; /*stopper billederne i bare at fortsætte ud i "marginen"*/
+  overscroll-behavior-inline: contain; /*fjerner muligheden for at scrolle i andre elementer på siden*/
+}
+
+.InstaKarrusel img {
+  height: 320px;
+  width: 280px;
+  padding: 10px;
+  object-fit: cover; /*udfylder billederne i den defineret størrelse uden at strække billederne*/
+}
+
+/*THE ONE GIFT THAT HAS IT ALL billede styles*/
+
+#TheOneGift {
+  position: relative; /*Gør det muligt, at placere tekst/knapper oven på billedet*/
+}
+
+#TheOneGift img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*THE ONE GIFT THAT HAS IT ALL tekst styles*/
+
+#TheOneGift h1 {
+  color: var(--tekst-billeder);
+  /* Tekstens placering */
+  position: absolute; /*Placerer teksten ovenpå billedet*/
+  left: 120px;
+  right: 700px;
+  top: 200px;
+  text-align: left;
+}
+
+/*FEATURES knap styles*/
+
+.FeaturesButton {
+  position: absolute; /*Placerer knappen ovenpå billedet*/
+  top: 400px;
+  left: 550px;
+  border-radius: 20px;
+  padding: 10px 56px;
+  background-color: var(--CTA);
+  color: var(--CTA-tekst);
+  font-family: "Jura", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*FEATURES knap hover effekt*/
+.FeaturesButton:hover {
+  background-color: var(--CTA-tekst);
+  color: var(--CTA);
+  border-color: var(--CTA);
+}
+
+/*HER INDSÆTTES FEATURES SEKTION*/
+
+/*HER INDSÆTTES JUST ONE MORE SEKTION*/
+
+/*THE ONE THAT BRINGS US TOGETHER billede styles*/
+
+#BringsUsTogether {
+  position: relative; /*Gør det muligt, at placere tekst/knapper oven på billedet*/
+}
+
+#BringsUsTogether img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*THE ONE THAT BRINGS US TOGETHER tekst styles*/
+
+#BringsUsTogether h1 {
+  color: var(--tekst-billeder);
+  text-shadow: 0 4px 12px var(--CTA);
+  /* Tekstens placering */
+  position: absolute; /*Placerer teksten ovenpå billedet*/
+  left: 120px;
+  right: 700px;
+  top: 200px;
+  text-align: left;
+}
+
+/*THE ONE THAT BRINGS US TOGETHER knap styles*/
+
+.BuyNowButton {
+  position: absolute; /*Placerer knappen ovenpå billedet*/
+  top: 400px;
+  left: 550px;
+  border-radius: 20px;
+  padding: 10px 56px;
+  background-color: var(--CTA);
+  color: var(--CTA-tekst);
+  font-family: "Jura", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/*THE ONE THAT BRINGS US TOGETHER knap hover*/
+
+.BuyNowButton:hover {
+  background-color: var(--CTA-tekst);
+  color: var(--CTA);
+  border-color: var(--CTA);
+}
+
+/*HER INDSÆTTES ANDEN PRODUKTSIDE*/
+
+/*HER INDSÆTTES THE ONE THATS GOING AWAY SEKTION*/
+
+/*HER INDSÆTTES FOOTER*/
