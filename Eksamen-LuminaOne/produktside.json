@@ -9,7 +9,7 @@
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
     "color": "Jacks White",
-    "image": "/images/forskellige_højtalerfarver/Jackswhiteu.bg.png"
+    "image": "/images/speaker-colors/jacks-whiteu.bg.png"
   },
 
   {
@@ -22,7 +22,7 @@
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
     "color": "Sabbath Black",
-    "image": "/images/forskellige_højtalerfarver/SabbathBlack u.bg.png"
+    "image": "/images/speaker-colors/sabbath-black u.bg.png"
   },
   {
     "id": 3,
@@ -34,7 +34,7 @@
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
     "color": "Springing Silver",
-    "image": "/images/forskellige_højtalerfarver/SpringingSilveru.bg.png"
+    "image": "/images/speaker-colors/springing-silveru.bg.png"
   },
 
   {
@@ -47,6 +47,6 @@
     "Trustpilot author": "J. Smith on LUMINA audio’s Trustpilot",
     "price": "1.995 DKK",
     "color": "Crisp Brown",
-    "image": "/images/forskellige_højtalerfarver/CripsBrownu.bg.png"
+    "image": "/images/speaker-colors/crisp-brownu.bg.png"
   }
 ]
