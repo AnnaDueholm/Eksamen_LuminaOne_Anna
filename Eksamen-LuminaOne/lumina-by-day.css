@@ -84,6 +84,7 @@ body {
   color: var(--tekst-billeder);
   padding-left: 24px;
   font-family: "Manrope", sans-serif;
+  cursor: pointer;
 }
 
 /*Hero*/
@@ -110,7 +111,7 @@ header {
   align-items: flex-start;
   padding-left: 120px;
   padding-right: 700px;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 224px;
   text-align: left;
 }
@@ -125,6 +126,7 @@ header {
   font-family: "Jura", sans-serif;
   font-size: 24px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 /*BUY NOW knap hover effekt*/
@@ -135,7 +137,131 @@ header {
   border-color: var(--CTA);
 }
 
+/*Menu linje*/
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 20px;
+  padding: 80px;
+  padding-top: 16px;
+  cursor: pointer;
+}
+#menu img {
+  width: 20 px;
+  height: auto;
+  display: block;
+}
+
 /*HER INDSÆTTES FØRSTE PRODUKTSIDE*/
+
+#Produktside1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: var(--bg-color);
+  height: 830px;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.produktinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+}
+.container {
+  position: relative;
+  width: 40vw;
+  height: 70vh;
+}
+
+.headlineProduct {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  color: var(--tekst-farve);
+  gap: 10px;
+}
+
+.trustpilot {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  gap: 10px;
+  color: var(--tekst-farve);
+}
+
+.trustpilot p {
+  font-style: italic;
+}
+
+.trustpilot img {
+  width: 80px;
+  height: 20px;
+}
+
+.color,
+.color1,
+.color2,
+.color3,
+.color4 {
+  opacity: 0;
+  inset: 0;
+  position: absolute;
+  transition: 0.4 ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.color.active {
+  opacity: 1;
+}
+
+.color1 {
+  background-image: url(images/speaker-colors/jacks-whiteu.bg.png);
+}
+
+.color2 {
+  background-image: url(images/speaker-colors/sabbath-black-u.bg.png);
+}
+
+.color3 {
+  background-image: url(images/speaker-colors/springing-silveru.bg.png);
+}
+
+.color4 {
+  background-image: url(images/speaker-colors/crisp-brownu.bg.png);
+}
+
+.ButtonContainer {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 1px solid var(--tekst-farve);
+  border-bottom: 1px solid var(--tekst-farve);
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  gap: 10px;
+  margin: 0px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /*HER INDSÆTTES LUMINATE YOURSELF INSTA SECTION*/
 
@@ -221,6 +347,7 @@ header {
   font-family: "Jura", sans-serif;
   font-size: 24px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 /*FEATURES knap hover effekt*/
@@ -272,6 +399,7 @@ header {
   font-family: "Jura", sans-serif;
   font-size: 24px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 /*THE ONE THAT BRINGS US TOGETHER knap hover*/
